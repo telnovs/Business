@@ -18,7 +18,6 @@ html(lang='en')
   body
     .wrapper
       include ../includes/modules/header
-       //- block content
       .mainblock
         .container
           .mainblock__imageblock.imageblock
@@ -159,3 +158,9 @@ html(lang='en')
                         img(src='../assets/img/newsmedia/02.jpg' alt='')
         //- include ../includes/modules/foote
         //- block script
+      .country
+        .container
+          .country__title.title Learn more about Us in your country
+          #map.country__map
+      include ../includes/modules/footer
+    <script src="https://maps.google.com/maps/api/js?sensor=false&amp;key="></script>
